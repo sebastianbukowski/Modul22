@@ -1,7 +1,11 @@
+
 export default {
   locale: 'en',
   messages: {
+    editPost: 'Edit Post',
     siteTitle: 'MERN Starter Blog',
+    thumbUp: 'thumbUp',
+    thumbDown: 'thumbDown',
     addPost: 'Add Post',
     switchLanguage: 'Switch Language',
     twitterMessage: 'We are on Twitter',

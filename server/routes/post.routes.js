@@ -2,6 +2,9 @@ import { Router } from 'express';
 import * as PostController from '../controllers/post.controller';
 const router = new Router();
 
+// Update a post by cuid
+router.route('/posts/:cuid').put(PostController.editPost);
+
 // Get all Posts
 router.route('/posts').get(PostController.getPosts);
 
